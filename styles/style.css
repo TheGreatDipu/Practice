@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../Font/Lucky\ Sunshine\ 400.ttf');
+}
+
+header {
+    background-image: url('../images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 669px;
+}
+
+.banner {
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+}
+
+.banner h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.common {
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: #FF5959;
+    color: #FFFFFF;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.pera-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pera-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.donate-today div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.donate-today div button {
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 43px 24px;
+    border: none;
+}
+
+.unique {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FF5959;
+}
+
+.donate-today h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 60px;
+    margin-bottom: 9px;
+}
+
+.donate-today button {
+    margin-top: 30px;
+}
+
+.donate-today hr {
+    margin: 0px 338px;
+}
+
+.plan-food {
+    background: rgba(79, 157, 166, 0.1);
+    ;
+    border-radius: 5px;
+    padding: 30px;
+    width: 360px;
+    height: 352px;
+}
+
+.plan-shelter {
+    background: rgba(255, 89, 89, 0.1);
+    ;
+    border-radius: 5px;
+    padding: 30px;
+    width: 360px;
+    height: 352px;
+}
+
+.plan-frame {
+    background: #FFEBCD;
+    ;
+    border-radius: 5px;
+    padding: 30px;
+    width: 360px;
+    height: 352px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+    margin-left: 15%;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    color: #757575;
+}
+
+.text-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-pic-align {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.text-pic-align2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-left: 15%;
+}
+
+.common2 {
+    padding: 16px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: #FF5959;
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.text-pic div img {
+    width: 600px;
+}
+
+.text-pic2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-pic2 div img {
+    width: 600px;
+}
+
+.last-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF4D6;
+    width: 800px;
+    height: 200px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+}
+
+.last-work input {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+    border: none;
+    border-radius: 0;
+}
+
+.last-work button {
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF5959;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #0B0D17;
+    display: block;
+    text-align: center;
+    height: 180px;
+}
+
+footer h1 {
+    color: #FF5959;
+    padding-top: 45px;
+    font-family: myFirstFont;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 24px;
+}
